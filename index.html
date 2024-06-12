@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <p class="gross1">Gross annual income is your total salary in a year before any deduction</p><br>
+        <p class="gross2">please enter number only</p><br>
+        <p class="othersrc">it is other sources of income </p>
+        <p class="agegrp"> belong to which Age </p>
+        <p class="dctc">total deduction in overall income yearly</p>
+        <div class="result"><h1>Your overall income will be</h1>
+        <h1 class="amount">0</h1>
+        <p>after tax deduction</p>
+        <button class="close">Close</button>
+    </div>
+        <div class="main">
+            <form action="">
+                <div class="labels">
+                    <label for="grossSalary">Enter gross annual income</label><p class="first">?</p>
+                </div>
+                <div class="input-cstm">
+                    <input class="input1" type="text" name="grossSalary" placeholder="Gross annual income is your total salary in a year before any deduction"><p class="second">?</p>
+                </div>
+
+                <div class="labels">
+                    <label for="extraincome">Enter extra income</label><p class="third">?</p>
+                </div>
+                <input type="text" name="extraincome" id="extraincome" placeholder="Enter extra income from other sources">
+
+                <div class="labels">
+                    <label for="agegroup">Enter age group</label><p class="fourth">?</p>
+                </div>
+                <input type="number" name="agegroup" id="agegroup">
+
+                <div class="labels">
+                    <label for="deduction">Enter total applicable deduction</label><p class="fifth">?</p>
+                </div>
+                <input type="text" name="deduction" id="deduction" placeholder="Add total applicable deduction"><br>
+
+                <button type="button" id="submitbtn">Submit</button>
+            </form>
+
+        
+        </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
